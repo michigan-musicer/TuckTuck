@@ -12,7 +12,7 @@ all: std_includes TuckTuck.so
 TuckTuck.so: Application.o EntryPoint.o TuckTuck.o
 	$(FLAGS) $(MAPPER) -shared $^ -o $@
 
-%.o: include/%.ixx src/%.cpp
+%.o: src/%.cpp
 	$(FLAGS) $(MAPPER) -fPIC -c $^ -o $@
 
 std_includes:

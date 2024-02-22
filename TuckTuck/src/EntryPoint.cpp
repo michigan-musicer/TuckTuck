@@ -1,6 +1,8 @@
-module TuckTuck:EntryPoint;
+export module TuckTuck:EntryPoint;
 
-int main()
+import TuckTuck:Application;
+
+export int main()
 {
     auto app = TuckTuck::ApplicationFactory();
     app->run();
