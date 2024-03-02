@@ -1,8 +1,10 @@
 module;
 
+
+
 export module TuckTuck:Application;
 
-import <iostream>;
+export import module TuckTuck:Logger;
 
 namespace TuckTuck
 {
@@ -22,19 +24,19 @@ namespace TuckTuck
 
     Application::Application()
     {
-
+        logEngineWarn("Starting application")
     }
 
     Application::~Application()
     {
-
+        logEngineWarn("Ending application")
     }
 
     void Application::run()
     {
         while(true)
         {    
-            std::cout << "passing test\n";
+            logEngineInfo("passing test");
             break;
         }
     }
