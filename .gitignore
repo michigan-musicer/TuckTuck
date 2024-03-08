@@ -1,6 +1,11 @@
-*/lib/*
+build/
+*build/*
 .vscode
 
 *.o
 *.so
 *.exe
+
+todos.md
+
+test.cpp
