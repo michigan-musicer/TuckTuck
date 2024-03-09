@@ -1,4 +1,4 @@
-#include <TuckTuck.h>
+#include <Application.h>
 
 class Sandbox : public TuckTuck::Application
 {
