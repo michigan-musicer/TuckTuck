@@ -6,7 +6,7 @@
 #include <spdlog/details/registry.h>
 
 //
-// Init log levels using each argv entry that starts with "SPDLOG_LEVEL="
+// init log levels using each argv entry that starts with "SPDLOG_LEVEL="
 //
 // set all loggers to debug level:
 // example.exe "SPDLOG_LEVEL=debug"
